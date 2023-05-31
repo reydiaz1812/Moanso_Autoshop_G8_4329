@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mtdr_Fpago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mtdr_Fpago.Designer.cs">
+      <DependentUpon>Mtdr_Fpago.cs</DependentUpon>
+    </Compile>
     <Compile Include="mtdr_Proveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mtdr_Fpago.resx">
+      <DependentUpon>Mtdr_Fpago.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mtdr_Proveedor.resx">
       <DependentUpon>mtdr_Proveedor.cs</DependentUpon>
