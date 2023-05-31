@@ -91,7 +91,7 @@
             this.tabControl1.Location = new System.Drawing.Point(-2, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(790, 447);
+            this.tabControl1.Size = new System.Drawing.Size(345, 327);
             this.tabControl1.TabIndex = 1;
             // 
             // tabPage1
@@ -115,7 +115,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(782, 421);
+            this.tabPage1.Size = new System.Drawing.Size(337, 301);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Tarjeta";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -301,7 +301,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 36;
-            this.button3.Text = "Pagar";
+            this.button3.Text = "Cancelar";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -341,7 +341,7 @@
             this.groupBox2.Size = new System.Drawing.Size(261, 35);
             this.groupBox2.TabIndex = 32;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Tipo Tarjeta";
+            this.groupBox2.Text = "App banco";
             // 
             // radioButton3
             // 
@@ -349,10 +349,10 @@
             this.radioButton3.Font = new System.Drawing.Font("Maiandra GD", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton3.Location = new System.Drawing.Point(161, 12);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(97, 18);
+            this.radioButton3.Size = new System.Drawing.Size(43, 18);
             this.radioButton3.TabIndex = 15;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Tarjeta Credito";
+            this.radioButton3.Text = "Plin";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton4
@@ -361,10 +361,10 @@
             this.radioButton4.Font = new System.Drawing.Font("Maiandra GD", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.Location = new System.Drawing.Point(32, 12);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(94, 18);
+            this.radioButton4.Size = new System.Drawing.Size(51, 18);
             this.radioButton4.TabIndex = 14;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Tarjeta Debito";
+            this.radioButton4.Text = "YAPE";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // textBox8
@@ -418,9 +418,9 @@
             this.label10.Font = new System.Drawing.Font("Maiandra GD", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(24, 136);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(100, 14);
+            this.label10.Size = new System.Drawing.Size(102, 14);
             this.label10.TabIndex = 25;
-            this.label10.Text = "Numero de Tarjeta:";
+            this.label10.Text = "Código Verificación";
             // 
             // label11
             // 
@@ -428,9 +428,9 @@
             this.label11.Font = new System.Drawing.Font("Maiandra GD", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(24, 162);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(31, 14);
+            this.label11.Size = new System.Drawing.Size(100, 14);
             this.label11.TabIndex = 24;
-            this.label11.Text = "CVV:";
+            this.label11.Text = "Número Operación";
             // 
             // label12
             // 
@@ -466,7 +466,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(344, 327);
             this.Controls.Add(this.tabControl1);
             this.Name = "Mtdr_Fpago";
             this.Text = "Mtdr_Fpago";
