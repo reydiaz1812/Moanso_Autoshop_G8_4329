@@ -52,6 +52,18 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Historial de venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historial de venta.Designer.cs">
+      <DependentUpon>Historial de venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lista Repuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lista Repuesto.Designer.cs">
+      <DependentUpon>Lista Repuesto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mantendor Repuesto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +104,12 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historial de venta.resx">
+      <DependentUpon>Historial de venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista Repuesto.resx">
+      <DependentUpon>Lista Repuesto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mantendor Repuesto.resx">
       <DependentUpon>Mantendor Repuesto.cs</DependentUpon>
